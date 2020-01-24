@@ -1,0 +1,191 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+h1{
+text-align:center;
+//color: black;
+font-size: 2em;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+#main{
+margin: 25px 100px;
+font-family: 'Raleway', sans-serif;
+}
+
+h2{
+background-color: #FEFFED;
+text-align:center;
+border-radius: 10px 10px 0 0;
+margin: -10px -40px;
+padding: 30px 40px;
+color: black;
+font-weight: bolder;
+font-size: 1.5em;
+margin-top: -1px !important;
+// margin-bottom: -19px !important;
+}
+
+hr{
+border:0;
+border-bottom:1px solid #ccc;
+margin: 10px -40px;
+margin-bottom: 30px;
+}
+
+#login{
+width:580px;
+float: left;
+border-radius: 10px;
+font-family:raleway;
+border: 2px solid #ccc;
+padding: 20px 40px 0px;
+margin-top: 70px;
+//margin: 50px;
+margin: 0% 25%;
+}
+/* #login1{
+  position: relative;
+width:200px;
+float: left;
+border-radius: 10px;
+font-family:raleway;
+border: 2px solid #ccc;
+padding: 10px 10px 0px;
+margin-top: 200px;
+margin:50px;
+margin: 0% 25%;
+} */
+input[type=text],input[type=email],input[type=password]{
+width:99.5%;
+padding: 10px;
+margin-top: 8px;
+border: 1px solid #ccc;
+padding-left: 5px;
+font-size: 16px;
+font-family:raleway;
+}
+
+textarea{
+width:99.5%;
+padding: 10px;
+margin-top: 8px;
+border: 1px solid #ccc;
+padding-left: 5px;
+margin-bottom: 5px;
+font-size: 16px;
+font-family:raleway;
+resize: none;
+}
+button,input[type=submit]{
+width: 100%;
+background-color:#FFBC00;
+color: white;
+border: 2px solid #FFCB00;
+padding: 10px;
+font-size:20px;
+cursor:pointer;
+border-radius: 5px;
+margin-bottom: 40px;
+}
+#para{
+clear: both;
+margin: 0 35%;
+}
+.container{
+position:absolute;
+    width:250px;
+    height:650px;
+    left:50%;
+    top:50%;
+    margin-left:-225px;
+    margin-top:-325px;
+}
+table {
+  width: 100%;
+  margin: 40px auto;
+  padding-left:20px;
+  table-layout: auto;
+
+}
+
+.fixed {
+  table-layout:auto;
+}
+
+table,
+td,
+th {
+  border-collapse: collapse;
+  text-align:center;
+  
+}
+tr:nth-child(even){
+  background-color:#f2f2f2;
+  }
+ 
+  .triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-right: 50px solid #555;
+  border-bottom: 25px solid transparent;
+}
+#srch-btn{
+  background-color: orange;
+  width:200px;
+  display:flex;
+}
+#srch-field{
+  width:500px;
+  float:left;
+}
+
+
+
+
+a{
+  box-shadow:inset 0px 39px 0px -24px #e67a73;
+  background-color:#e4685d;
+  border-radius:4px;
+  border:1px solid #ffffff;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  padding:6px 15px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #b23e35;
+}
+a:hover {
+  background-color:#eb675e;
+}
+a:active {
+  position:relative;
+  top:1px;
+}
+
+.myButton {
+  box-shadow:inset 0px 1px 0px 0px #fce2c1;
+  background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+  background-color:#ffc477;
+  border-radius:6px;
+  border:1px solid #eeb44f;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #cc9f52;
+}
+.myButton:hover {
+  background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+  background-color:#fb9e25;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
